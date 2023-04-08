@@ -1,0 +1,135 @@
+/* Default font styles */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Page container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header nav a {
+  color: #333;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Homepage hero */
+.homepage-hero {
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.homepage-hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.homepage-hero p {
+  font-size: 1.2rem;
+}
+
+/* Homepage features */
+.homepage-features {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.homepage-features .feature {
+  flex-basis: calc(33.33% - 2rem);
+  margin: 0 1rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.homepage-features .feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.homepage-features .feature p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Experiences page */
+.experiences {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.experience {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.experience h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.experience p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* About page */
+.about {
+  margin-top: 4rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about li {
+  margin-bottom: 0.5rem;
+}
+
+.about li:before {
+  content: "•";
+  margin-right: 0.5rem;
+}

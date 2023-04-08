@@ -1,0 +1,92 @@
+/* Style for the body of the page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Style for the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style for the navigation links */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #f16b6b;
+}
+
+/* Style for the hero section */
+.hero {
+  background-image: url("https://placehold.it/1200x600");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Style for the main content */
+main {
+  padding: 50px;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

@@ -1,4 +1,5 @@
-import "./Experience.css";
+import Layout from "./Layout";
+import "./styles.css";
 
 const Experience = () => {
   const experience = [
@@ -17,21 +18,22 @@ const Experience = () => {
         "Accent is a B2B gifting platform with a focus on making it easier to find and send gifts for a broad range of diverse holidays and occasions. My main focus is on developing our tech stack to provide tools for clients to experience easier gifting.",
     },
   ];
-
   return (
-    <div className="experience">
-      <h1>My Experience</h1>
-      <ul>
-        {experience.map((job, index) => (
-          <li key={index} className="job">
-            <h2>{job.company}</h2>
-            <h3>{job.position}</h3>
-            <p>{job.duration}</p>
-            <p>{job.description}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Layout>
+      <div className="experiences page-container">
+        <h1 className="header">My Experience</h1>
+        <ul className="experience">
+          {experience.map((job, index) => (
+            <li key={index} className="job">
+              <h2>{job.company}</h2>
+              <h3>{job.position}</h3>
+              <p>{job.duration}</p>
+              <p>{job.description}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Layout>
   );
 };
 

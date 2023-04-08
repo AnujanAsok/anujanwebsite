@@ -3,16 +3,18 @@ import "./Experience.css";
 const Experience = () => {
   const experience = [
     {
-      company: "ABC Inc.",
-      position: "Software Engineer",
-      duration: "Jan 2020 - Present",
-      description: "Description of role and responsibilities at ABC Inc.",
+      company: "Afterwork",
+      position: "Chief Technology Officer",
+      duration: "Jan 2023 - Present",
+      description:
+        "Afterwork is a corporate event planning platform, where you can service all your event needs in one place! My role at Afterwork is to build out our tech stack and ensure our clients have the tools they need to set up their events quicker and easier.",
     },
     {
-      company: "XYZ Corp.",
-      position: "Web Developer",
-      duration: "Jun 2018 - Dec 2019",
-      description: "Description of role and responsibilities at XYZ Corp.",
+      company: "Accent",
+      position: "Chief Technology Officer",
+      duration: "Jan 2022 - Jan 2023",
+      description:
+        "Accent is a B2B gifting platform with a focus on making it easier to find and send gifts for a broad range of diverse holidays and occasions. My main focus is on developing our tech stack to provide tools for clients to experience easier gifting.",
     },
   ];
 

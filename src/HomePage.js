@@ -5,36 +5,20 @@ import Layout from "./Layout";
 
 const HomePage = () => {
   return (
-    <div className="page-container">
-      <header className="header">
-        <h1>Personal Portfolio</h1>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/experiences">Experience</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </header>
-      <section className="homepage-hero">
-        <h2>Welcome to my personal portfolio site</h2>
-        <p>This is a placeholder paragraph for the homepage content.</p>
-      </section>
-      <section className="homepage-features">
-        <div className="feature">
-          <h3>Feature 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div className="feature">
-          <h3>Feature 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div className="feature">
-          <h3>Feature 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </section>
-    </div>
+    <Layout>
+      <div className="page-container">
+        <section className="homepage-hero">
+          <h2>Hey, I'm Anujan Asokkumar</h2>
+          <p>
+            A software engineer with a passion for full stack web development
+            that create a much more memorable experience for the end user.
+          </p>
+          <Link to={"/experiences"}>
+            <button>View my experience</button>
+          </Link>
+        </section>
+      </div>
+    </Layout>
   );
 };
 

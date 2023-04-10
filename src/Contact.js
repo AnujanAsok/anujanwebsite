@@ -26,6 +26,7 @@ const Contact = () => {
   return (
     <Layout>
       <div className="contact-container">
+        <h1>Contact</h1>
         {isSubmitted ? (
           <p>Submitting form...</p>
         ) : (

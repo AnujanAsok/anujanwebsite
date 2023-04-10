@@ -22,16 +22,16 @@ const Experience = () => {
     <Layout>
       <div className="experiences page-container">
         <h1 className="header">My Experience</h1>
-        <ul className="experience">
+        <div className="experience">
           {experience.map((job, index) => (
-            <li key={index} className="job">
+            <div key={index} className="job">
               <h2>{job.company}</h2>
               <h3>{job.position}</h3>
               <p>{job.duration}</p>
               <p>{job.description}</p>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </Layout>
   );

@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-image: url("/home/anujan/anujansitev2/anujanwebsite/public/18410.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Page container */
@@ -101,7 +105,7 @@ body {
 /* Experiences page */
 .experiences {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 2fr);
   gap: 2rem;
   margin-top: 4rem;
 }
@@ -120,6 +124,7 @@ body {
 .experience p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  width: 500px;
 }
 
 /* About page */
@@ -168,4 +173,22 @@ body {
 .about-link:hover {
   color: #fff;
   background-color: #2a2a2a;
+}
+
+/* Layout Page */
+.icon-column {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 110px;
+  left: 50px;
+}
+
+.icon-column a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.icon-column a svg {
+  font-size: 2em;
 }

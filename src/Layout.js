@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/experiences">Experience</Link>
-          <Link to="/blog">Blog</Link>
           <Link to="/contact">Contact</Link>
         </nav>
         <div className="icon-column">

@@ -11,7 +11,7 @@ const HomePage = () => {
           <h2>Hey, I'm Anujan Asokkumar</h2>
           <p>
             A software engineer with a passion for full stack web development
-            that create a much more memorable experience for the end user.
+            that creates a much more memorable experience for the end user.
           </p>
           <Link to={"/experiences"}>
             <button>View my experience</button>

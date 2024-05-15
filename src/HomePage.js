@@ -10,8 +10,8 @@ const HomePage = () => {
         <section className="homepage-hero">
           <h2>Hey, I'm Anujan Asokkumar</h2>
           <p>
-            A software engineer with a passion for full stack web development
-            that creates a much more memorable experience for the end user.
+            A software engineer with a passion for full stack web development and AI/ML applications
+            that create a much more memorable experience for the end user.
           </p>
           <Link to={"/experiences"}>
             <button>View my experience</button>
